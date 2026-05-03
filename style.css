@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #eeeeee;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(90deg, #1a1a1a, #4a0000);
+    padding: 30px;
+    text-align: center;
+    border-bottom: 3px solid #b30000;
+}
+
+header h1 {
+    margin: 0;
+    color: #ff4444;
+    font-size: 36px;
+}
+
+header p {
+    color: #cccccc;
+}
+
+nav {
+    background-color: #1c1c1c;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #ff6666;
+    text-decoration: none;
+    margin: 8px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+main {
+    width: 80%;
+    margin: 30px auto;
+}
+
+section {
+    background-color: #1b1b1b;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-left: 4px solid #b30000;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #ff4444;
+}
+
+h3 {
+    color: #ff7777;
+}
+
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+.card {
+    background-color: #242424;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #333;
+}
+
+.card a {
+    color: #ff6666;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #222;
+}
+
+th, td {
+    border: 1px solid #555;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4a0000;
+    color: white;
+}
+
+footer {
+    background-color: #1c1c1c;
+    color: #aaa;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: white;
+    background-color: #b30000;
+    padding: 10px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    background-color: #ff4444;
+}
+img {
+    display: block;
+    max-width: 100%;
+    margin: 15px auto;
+    border-radius: 8px;
+    height: 500px;
+}
